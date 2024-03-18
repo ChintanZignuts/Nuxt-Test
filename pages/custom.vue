@@ -6,4 +6,5 @@ definePageMeta({
 </script>
 <template>
   <h1>custom page</h1>
+  <ContentDoc />
 </template>
