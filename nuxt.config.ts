@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, "/"),
   },
+  typescript: {
+    typeCheck: true,
+  },
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
