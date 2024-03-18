@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, "/"),
   },
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "@pinia/nuxt"],
   typescript: {
     typeCheck: true,
   },
